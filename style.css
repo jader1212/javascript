@@ -1,0 +1,29 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    background-color: #d4d3cf;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    border-radius: 10px;
+    color: #0B6FA4;
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+    min-width: 50px;
+    cursor: pointer;
+}
+
+#listagem {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}

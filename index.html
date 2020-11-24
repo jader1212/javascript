@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Cadastro de Clientes</h1>
+        <form name="frmCleinte">
+            <fieldset>
+
+                <label for="nome">Nome</label>
+                <br><input id="nome" placeholder="Digite nome completo" class="input-control"><br>
+
+
+                <label for="rg">RG</label>
+                <br><input type="number" id="rg" placeholder="Digite RG" minlength="9" maxlength="9" class="input-control"><br>
+
+
+                <label for="codigo">Código</label>
+                <br><input type="number" id="codigo" placeholder="Digite codigo" class="input-control"><br>
+
+
+                <label for="cpf">CPF</label>
+                <br><input type="number" id="cpf" placeholder="Digite CPF" minlength="11" maxlength="11" class="input-control"><br>
+
+
+                <label for="endereco">Endereço</label>
+                <br><input type="text" id="endereco" placeholder="Digit endereco" class="input-control"><br>
+
+                <label for="bairro">Bairro</label>
+                <br><input type="text" id="bairro" placeholder="Digite bairro" class="input-control"><br>
+
+                <label for="cidade">Cidade</label>
+                <br><input type="text" id="cidade" placeholder="Digite Cidade" class="input-control"><br>
+
+                <label for="cep">CEP</label>
+                <br><input type="number" id="cep" placeholder="Digite CEP" minlength="8" maxlength="8" class="input-control"><br>
+
+                <label for="uf">UF</label>
+                <br><input type="text" id="uf" placeholder="Digite UF" class="input-control"><br>
+
+                <label for="telefone">Telefone</label>
+                <br><input type="number" id="telefone" placeholder="Digite numero de telefone" class="input-control"><br>
+
+                <label for="celular">Celular</label>
+                <br><input type="number" id="celular" placeholder="Digite numero de celular" class="input-control"><br>
+
+                <label for="email">E-mail</label>
+                <br><input type="email" id="email" placeholder="Digite E-mail" class="input-control"><br>
+
+                <label for="nascimento">Nascimento</label>
+                <br><input type="date" id="nascimento" placeholder="Digite data de Nascimento" min="01/01/1901" clainput-control><br>
+
+
+                <label for="observacao">Observação</label>
+                <br><input type="text" id="observacoes" class="input-control"><br>
+
+                <button id="salvar">Salvar</button>
+                <button id="cancelar">Cancelar</button>
+            </fieldset>
+        </form>
+    </div>
+    <div id="listagem"></div>
+    <script src="cliente.js"></script>
+</body>
+
+</html>
