@@ -105,10 +105,9 @@ class Cliente {
     }
 
 }
-//instanciamos novo objeto
+
 const cliente = new Cliente()
 
-//tratamos o botão salvar
 document.getElementById('salvar').onclick = function() {
     const registro = {
         nome: document.getElementById('nome').value,
@@ -129,7 +128,6 @@ document.getElementById('salvar').onclick = function() {
 
 }
 
-//tratamos a listagem
 window.onload = function() {
     cliente.atualiza()
 }
